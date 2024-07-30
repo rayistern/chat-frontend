@@ -1,0 +1,24 @@
+{
+  "name": "nextjs-ai-chatbot",
+  "version": "1.0.0",
+  "description": "A simple AI chatbot website using Next.js and Klu.ai",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@kluai/core": "^1.0.0",
+    "next": "latest",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "eslint": "7.x",
+    "eslint-config-next": "11.x"
+  },
+  "license": "MIT",
+  "private": true
+}

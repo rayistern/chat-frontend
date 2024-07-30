@@ -1,0 +1,71 @@
+.chatbotContainer {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #eaeaea;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.messageList {
+  flex-grow: 1;
+  overflow-y: auto;
+  margin-bottom: 20px;
+  padding: 10px;
+  list-style: none;
+}
+
+.messageItem {
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 4px;
+  background-color: #f4f4f4;
+}
+
+.messageItem.userMessage {
+  align-self: flex-end;
+  background-color: #d1e7fd;
+}
+
+.inputArea {
+  display: flex;
+  justify-content: space-between;
+}
+
+.inputField {
+  flex-grow: 1;
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid #eaeaea;
+  border-radius: 4px;
+}
+
+.submitButton {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #0070f3;
+  color: white;
+  cursor: pointer;
+}
+
+.submitButton:hover {
+  background-color: #0056b3;
+}
+
+.resetButton {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #e02424;
+  color: white;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.resetButton:hover {
+  background-color: #a81818;
+}
